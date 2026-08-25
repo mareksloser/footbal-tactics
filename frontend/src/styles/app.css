@@ -10,6 +10,9 @@
   --color-deep: #e07a1f;
   --color-chalk: #eaeff3;
   --color-muted: #93a3b0;
+
+  --pitch-chrome: 26rem;
+
   --font-sans: ui-sans-serif, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 

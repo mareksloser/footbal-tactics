@@ -10,9 +10,10 @@ export interface TacticPlayerProps {
   players: readonly PlayerDef[];
   theme?: ThemeName;
   autoPlay?: boolean;
+  pitchClassName?: string;
 }
 
-export function TacticPlayer({ scenarios, players, theme = 'coach', autoPlay = true }: TacticPlayerProps) {
+export function TacticPlayer({ scenarios, players, theme = 'coach', autoPlay = true, pitchClassName }: TacticPlayerProps) {
   const [active, setActive] = useState(0);
   const scenario = scenarios[Math.min(active, scenarios.length - 1)];
 
@@ -52,7 +53,7 @@ export function TacticPlayer({ scenarios, players, theme = 'coach', autoPlay = t
         ))}
       </div>
 
-      <PitchCanvas players={players} getScene={playback.getScene} theme={themes[theme]} />
+      <PitchCanvas players={players} getScene={playback.getScene} theme={themes[theme]} className={pitchClassName} />
 
       <div className="mt-3 flex items-center gap-2">
         <button
