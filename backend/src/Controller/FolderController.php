@@ -15,15 +15,15 @@ readonly class FolderController
     return $this->folderRepo->listAll();
   }
 
-  public function create(array $body): array
+  public function create(object $body): array
   {
     return $this->folderRepo->create(
-      (string) ($body['name'] ?? ''),
-      $body['parentId'] ?? null
+      (string) ($body->name ?? ''),
+      $body->parentId ?? null
     );
   }
 
-  public function update(string $id, array $body): array
+  public function update(string $id, object $body): array
   {
     return $this->folderRepo->update($id, $body);
   }

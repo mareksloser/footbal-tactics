@@ -14,12 +14,12 @@ interface TacticRepositoryInterface
   /**
    * Find a single tactic by its unique identifier.
    */
-  public function findById(string $id): ?array;
+  public function findById(string $id): ?object;
 
   /**
    * Persist a tactic entity to storage.
    */
-  public function save(array $tactic, bool $isNew): array;
+  public function save(object $tactic, bool $isNew): object;
 
   /**
    * Delete a tactic entry by its ID.

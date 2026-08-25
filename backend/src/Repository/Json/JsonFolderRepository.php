@@ -30,13 +30,13 @@ readonly class JsonFolderRepository implements FolderRepositoryInterface
     return $folder;
   }
 
-  public function update(string $id, array $data): array
+  public function update(string $id, object $data): array
   {
     $folders = $this->readJson('folders.json', []);
     foreach ($folders as &$folder) {
       if ($folder['id'] === $id) {
-        $folder['name'] = $data['name'] ?? $folder['name'];
-        $folder['parentId'] = array_key_exists('parentId', $data) ? $data['parentId'] : $folder['parentId'];
+        $folder['name'] = $data->name ?? $folder['name'];
+        $folder['parentId'] = property_exists($data, 'parentId') ? $data->parentId : $folder['parentId'];
         $this->writeJson('folders.json', $folders);
 
         return $folder;

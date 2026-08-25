@@ -8,6 +8,6 @@ interface FolderRepositoryInterface
 {
   public function listAll(): array;
   public function create(string $name, ?string $parentId): array;
-  public function update(string $id, array $data): array;
+  public function update(string $id, object $data): array;
   public function delete(string $id): void;
 }

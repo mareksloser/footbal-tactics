@@ -20,7 +20,7 @@ readonly class TacticController
     return $this->tacticRepo->listAll();
   }
 
-  public function read(string $id): array
+  public function read(string $id): object
   {
     $tactic = $this->tacticRepo->findById($id);
     if (!$tactic) {
@@ -30,7 +30,7 @@ readonly class TacticController
     return $tactic;
   }
 
-  public function save(array $body, bool $isNew): array
+  public function save(object $body, bool $isNew): object
   {
     return $this->tacticRepo->save($body, $isNew);
   }
@@ -52,7 +52,7 @@ readonly class TacticController
     return ['token' => $token, 'url' => $origin . '/t/' . $id . '?share=' . $token];
   }
 
-  public function readShared(string $token): array
+  public function readShared(string $token): object
   {
     $tacticId = $this->shareRepo->getTacticId($token);
     if (!$tacticId) {

@@ -17,7 +17,7 @@ readonly class Router
     private TacticController $tacticController
   ) {}
 
-  public function dispatch(string $method, array $segments, array $body): mixed
+  public function dispatch(string $method, array $segments, object $body): mixed
   {
     $resource = $segments[0] ?? '';
     $id = $segments[1] ?? null;

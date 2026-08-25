@@ -14,9 +14,9 @@ readonly class AuthController
     private string $passwordHash
   ) {}
 
-  public function login(array $body): array
+  public function login(object $body): array
   {
-    $password = (string) ($body['password'] ?? '');
+    $password = (string) ($body->password ?? '');
     if ($this->passwordHash === '' || !password_verify($password, $this->passwordHash)) {
       throw new ApiException('Incorrect password', 401, 'invalid_password');
     }

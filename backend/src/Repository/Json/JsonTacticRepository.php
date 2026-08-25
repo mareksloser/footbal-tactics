@@ -32,27 +32,25 @@ readonly class JsonTacticRepository implements TacticRepositoryInterface
     return $result;
   }
 
-  public function findById(string $id): ?array
+  public function findById(string $id): ?object
   {
     $file = $this->storageDir . '/tactics/' . $this->safeId($id) . '.json';
-    if (!is_file($file)) {
-      return null;
-    }
-
-    return json_decode(file_get_contents($file) ?: '{}', true);
+    return is_file($file) ? json_decode(file_get_contents($file) ?: '{}') : null;
   }
 
-  public function save(array $tactic, bool $isNew): array
+  public function save(object $tactic, bool $isNew): object
   {
     $now = (new \DateTimeImmutable())->format(DATE_ATOM);
-    $tactic['updatedAt'] = $now;
+    $tactic->updatedAt = $now;
 
     if ($isNew) {
-      $tactic['createdAt'] = $now;
+      $tactic->createdAt = $now;
+    } else {
+      // createdAt bereme z uloženého záznamu, ne od klienta
+      $tactic->createdAt = $this->findById((string) $tactic->id)?->createdAt ?? $now;
     }
 
-    $file = $this->storageDir . '/tactics/' . $this->safeId((string) $tactic['id']) . '.json';
-    $this->atomicWrite($file, $tactic);
+    $this->atomicWrite($this->storageDir . '/tactics/' . $this->safeId((string) $tactic->id) . '.json', $tactic);
 
     return $tactic;
   }
@@ -73,7 +71,10 @@ readonly class JsonTacticRepository implements TacticRepositoryInterface
 
   private function atomicWrite(string $file, mixed $data): void
   {
-    @mkdir(dirname($file), 0775, true);
+    if (!mkdir($concurrentDirectory = dirname($file), 0775, TRUE) && !is_dir($concurrentDirectory)) {
+      throw new \RuntimeException(sprintf('Directory "%s" was not created', $concurrentDirectory));
+    }
+
     $tmp = $file . '.tmp';
     file_put_contents($tmp, json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT), LOCK_EX);
     rename($tmp, $file);

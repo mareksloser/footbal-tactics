@@ -26,7 +26,7 @@ $dotenv->required(['AUTH_PASSWORD_HASH', 'CORS_ORIGINS'])->notEmpty();
 // --- ERROR HANDLING ---
 $debug = Env::bool('APP_DEBUG');
 ini_set('log_errors', '1');
-ini_set('error_log', Env::path('ERROR_LOG', $rootDir, 'tmp/error/php-error.log'));
+ini_set('error_log', Env::path('ERROR_LOG', $rootDir, 'tmp/error/api--php-error.log'));
 ini_set('display_errors', $debug ? '1' : '0');
 
 // --- HANDLE CORS ---
@@ -65,7 +65,7 @@ if (($segments[0] ?? '') === 'api') {
   array_shift($segments);
 }
 
-$body = json_decode(file_get_contents('php://input') ?: '{}', true) ?: [];
+$body = json_decode(file_get_contents('php://input') ?: '{}') ?? new \stdClass();
 
 try {
   $response = $router->dispatch($method, $segments, $body);
@@ -78,6 +78,15 @@ try {
     'error' => [
       'code' => $e->errorCode,
       'message' => $e->getMessage(),
+    ],
+  ], JSON_UNESCAPED_UNICODE);
+} catch (\Throwable $e) {
+  error_log((string) $e);
+  http_response_code(500);
+  echo json_encode([
+    'error' => [
+      'code' => 'server_error',
+      'message' => $debug ? $e->getMessage() : 'Interní chyba serveru',
     ],
   ], JSON_UNESCAPED_UNICODE);
 }
