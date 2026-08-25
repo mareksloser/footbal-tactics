@@ -1,0 +1,1863 @@
+{
+  "id": "t_glasneruv-crystal-palace-3-4-2-1",
+  "title": "Glasnerův Crystal Palace (3-4-2-1)",
+  "description": "Rozehra, mezihra, přečíslení na kraji a centr — modelové situace z Glasnerova systému.",
+  "folderId": null,
+  "players": [
+    {
+      "id": "CB",
+      "label": "St",
+      "team": "home"
+    },
+    {
+      "id": "CM",
+      "label": "CM",
+      "team": "home"
+    },
+    {
+      "id": "DM",
+      "label": "DM",
+      "team": "home"
+    },
+    {
+      "id": "GK",
+      "label": "GK",
+      "team": "home"
+    },
+    {
+      "id": "L10",
+      "label": "10",
+      "team": "home"
+    },
+    {
+      "id": "LCB",
+      "label": "LSt",
+      "team": "home"
+    },
+    {
+      "id": "LWB",
+      "label": "LWB",
+      "team": "home"
+    },
+    {
+      "id": "R10",
+      "label": "10",
+      "team": "home"
+    },
+    {
+      "id": "RCB",
+      "label": "PSt",
+      "team": "home"
+    },
+    {
+      "id": "RWB",
+      "label": "RWB",
+      "team": "home"
+    },
+    {
+      "id": "ST",
+      "label": "9",
+      "team": "home"
+    },
+    {
+      "id": "oAM",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oCM1",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oCM2",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oGK",
+      "label": "GK",
+      "team": "away"
+    },
+    {
+      "id": "oLB",
+      "label": "KO",
+      "team": "away"
+    },
+    {
+      "id": "oLCB",
+      "label": "SO",
+      "team": "away"
+    },
+    {
+      "id": "oLM",
+      "label": "K",
+      "team": "away"
+    },
+    {
+      "id": "oRB",
+      "label": "KO",
+      "team": "away"
+    },
+    {
+      "id": "oRCB",
+      "label": "SO",
+      "team": "away"
+    },
+    {
+      "id": "oRM",
+      "label": "K",
+      "team": "away"
+    },
+    {
+      "id": "oST",
+      "label": "Ú",
+      "team": "away"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s_rozehra",
+      "name": "Rozehra",
+      "badge": "Fáze 1",
+      "title": "Rozehra proti presinku",
+      "keyPoints": [
+        "V rozehře vzniká struktura 3+2: tři stopeři, dvojice šestek a brankář jako hráč navíc.",
+        "Křídelní beci drží maximální šířku a přibíjejí soupeřovy krajní obránce — uvnitř se tím otevírá prostor pro desítky.",
+        "Zpětná přihrávka a rychlá změna strany nejsou ústup, ale nástroj: vytáhnou presink a otevřou volného stopera.",
+        "Volný krajní stoper vyváží míč — vedení míče je způsob, jak vytvořit hráče navíc bez rizika přihrávky."
+      ],
+      "frames": [
+        {
+          "id": "f_1_1",
+          "text": "Základ je 3-4-2-1. Tři stopeři a dvojice šestek tvoří v rozehře strukturu 3+2, brankář je pátá možnost. Křídelní beci stojí vysoko a široko u lajny.",
+          "positions": {
+            "GK": [
+              50,
+              93
+            ],
+            "LCB": [
+              26,
+              78
+            ],
+            "CB": [
+              50,
+              82
+            ],
+            "RCB": [
+              74,
+              78
+            ],
+            "LWB": [
+              8,
+              62
+            ],
+            "RWB": [
+              92,
+              62
+            ],
+            "DM": [
+              42,
+              70
+            ],
+            "CM": [
+              58,
+              68
+            ],
+            "L10": [
+              33,
+              48
+            ],
+            "R10": [
+              67,
+              48
+            ],
+            "ST": [
+              50,
+              36
+            ],
+            "oGK": [
+              50,
+              7
+            ],
+            "oLCB": [
+              42,
+              26
+            ],
+            "oRCB": [
+              58,
+              26
+            ],
+            "oLB": [
+              22,
+              38
+            ],
+            "oRB": [
+              78,
+              38
+            ],
+            "oCM1": [
+              42,
+              48
+            ],
+            "oCM2": [
+              58,
+              46
+            ],
+            "oLM": [
+              28,
+              62
+            ],
+            "oRM": [
+              72,
+              62
+            ],
+            "oAM": [
+              50,
+              56
+            ],
+            "oST": [
+              50,
+              72
+            ]
+          },
+          "ball": "GK",
+          "holdMs": 2600
+        },
+        {
+          "id": "f_1_2",
+          "text": "Brankář rozehrává na krajního stopera. Stopeři se rozestupují do šířky, defenzivní záložník klesá níž a nabízí se pro první přihrávku.",
+          "positions": {
+            "LCB": [
+              20,
+              78
+            ],
+            "RCB": [
+              80,
+              76
+            ],
+            "DM": [
+              44,
+              72
+            ],
+            "CM": [
+              60,
+              64
+            ]
+          },
+          "ball": "RCB"
+        },
+        {
+          "id": "f_1_3",
+          "text": "Soupeř presuje ze strany a stínem zavírá vnitřní přihrávku. Palace nespěchá — pravá desítka klesá do polokoridoru a nabízí odraz.",
+          "positions": {
+            "oRM": [
+              76,
+              72
+            ],
+            "oST": [
+              60,
+              72
+            ],
+            "oAM": [
+              52,
+              62
+            ],
+            "oRB": [
+              84,
+              50
+            ],
+            "R10": [
+              66,
+              54
+            ]
+          },
+          "ball": "RCB",
+          "zone": {
+            "x": 56,
+            "y": 44,
+            "w": 26,
+            "h": 22,
+            "label": "polokoridor"
+          }
+        },
+        {
+          "id": "f_1_4",
+          "text": "Zpětná přihrávka na středního stopera. Není to ústup — je to nástroj, jak vytáhnout presink a otočit hru.",
+          "positions": {},
+          "ball": "CB"
+        },
+        {
+          "id": "f_1_5",
+          "text": "Rychlá změna strany na druhého stopera. Presink soupeře se nestíhá přesunout přes celou šířku hřiště.",
+          "positions": {
+            "oRM": [
+              70,
+              66
+            ],
+            "oST": [
+              50,
+              70
+            ],
+            "oLM": [
+              34,
+              58
+            ],
+            "oAM": [
+              46,
+              58
+            ]
+          },
+          "ball": "LCB"
+        },
+        {
+          "id": "f_1_6",
+          "text": "Volný krajní stoper vyváží míč dopředu. Levý křídelní bek stojí u lajny a přibíjí si krajního obránce, takže uvnitř zůstává díra.",
+          "positions": {
+            "LCB": [
+              26,
+              66
+            ],
+            "LWB": [
+              8,
+              48
+            ],
+            "oLB": [
+              13,
+              44
+            ],
+            "L10": [
+              32,
+              52
+            ]
+          },
+          "ball": "LCB",
+          "focus": [
+            "LCB",
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_1_7",
+          "text": "Desítka se otevírá v meziprostoru mezi obranou a zálohou a přijímá půlobrátkou. Tohle je moment, kdy se rozehra láme v mezihru.",
+          "positions": {
+            "oCM1": [
+              38,
+              56
+            ]
+          },
+          "ball": "L10",
+          "focus": [
+            "L10"
+          ],
+          "zone": {
+            "x": 22,
+            "y": 44,
+            "w": 28,
+            "h": 14,
+            "label": "meziprostor"
+          }
+        },
+        {
+          "id": "f_1_8",
+          "text": "Míč je za první linií a křídelní bek startuje do prostoru. Rozehra splnila účel: soupeř je rozbitý a hra pokračuje dopředu.",
+          "positions": {
+            "LWB": [
+              10,
+              42
+            ],
+            "L10": [
+              36,
+              50
+            ]
+          },
+          "ball": "LWB",
+          "focus": [
+            "LWB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s_mezihra",
+      "name": "Mezihra",
+      "badge": "Fáze 2",
+      "title": "Mezihra a třetí hráč",
+      "keyPoints": [
+        "Útočník klesá do nohou, přibíjí si stopera a hraje odraz — tím se míč dostane k hráči čelem ke hře.",
+        "Zatímco útočník klesá, jedna z desítek startuje za jeho záda. Dva pohyby v opačném směru nejde ubránit jedním hráčem.",
+        "Cílem mezihry není držení míče, ale dostat míč do polokoridoru za soupeřovu zálohu.",
+        "Jakmile míč překročí linii zálohy, míčová strana se okamžitě zahušťuje — vzniká přečíslení."
+      ],
+      "frames": [
+        {
+          "id": "f_2_1",
+          "text": "Soupeř zaklesl do středního bloku 4-4-2. Palace má míč a hledá způsob, jak se dostat za linii zálohy.",
+          "positions": {
+            "GK": [
+              50,
+              90
+            ],
+            "LCB": [
+              28,
+              68
+            ],
+            "CB": [
+              50,
+              72
+            ],
+            "RCB": [
+              72,
+              68
+            ],
+            "LWB": [
+              8,
+              44
+            ],
+            "RWB": [
+              92,
+              44
+            ],
+            "DM": [
+              44,
+              60
+            ],
+            "CM": [
+              58,
+              58
+            ],
+            "L10": [
+              36,
+              40
+            ],
+            "R10": [
+              64,
+              40
+            ],
+            "ST": [
+              50,
+              30
+            ],
+            "oGK": [
+              50,
+              7
+            ],
+            "oLCB": [
+              42,
+              24
+            ],
+            "oRCB": [
+              58,
+              24
+            ],
+            "oLB": [
+              22,
+              28
+            ],
+            "oRB": [
+              78,
+              28
+            ],
+            "oCM1": [
+              42,
+              42
+            ],
+            "oCM2": [
+              58,
+              42
+            ],
+            "oLM": [
+              26,
+              46
+            ],
+            "oRM": [
+              74,
+              46
+            ],
+            "oAM": [
+              42,
+              55
+            ],
+            "oST": [
+              52,
+              58
+            ]
+          },
+          "ball": "CB",
+          "holdMs": 2400
+        },
+        {
+          "id": "f_2_2",
+          "text": "Míč jde do dvojice šestek. Jejich úkolem je míč rychle otočit dopředu, ne zpátky do bezpečí.",
+          "positions": {},
+          "ball": "CM"
+        },
+        {
+          "id": "f_2_3",
+          "text": "Útočník klesá do nohou a přibíjí si stopera. Ve stejné chvíli startuje pravá desítka za jeho záda — obránci si musí vybrat.",
+          "positions": {
+            "ST": [
+              52,
+              44
+            ],
+            "R10": [
+              68,
+              34
+            ],
+            "oLCB": [
+              44,
+              26
+            ],
+            "oRCB": [
+              58,
+              28
+            ]
+          },
+          "ball": "CM",
+          "focus": [
+            "ST",
+            "R10"
+          ]
+        },
+        {
+          "id": "f_2_4",
+          "text": "Přihrávka do útočníka zády k bráně a hned odraz na třetího hráče. Záložník přebírá míč čelem ke hře.",
+          "positions": {
+            "CM": [
+              54,
+              50
+            ]
+          },
+          "ball": "ST",
+          "focus": [
+            "ST"
+          ]
+        },
+        {
+          "id": "f_2_5",
+          "text": "Odraz na šestku, která má před sebou otevřené hřiště.",
+          "positions": {},
+          "ball": "CM",
+          "focus": [
+            "CM"
+          ]
+        },
+        {
+          "id": "f_2_6",
+          "text": "Přihrávka do polokoridoru za soupeřovu zálohu. Desítka přijímá v prostoru, který krajní obránce musí opustit.",
+          "positions": {
+            "R10": [
+              70,
+              28
+            ],
+            "RWB": [
+              92,
+              32
+            ],
+            "RCB": [
+              74,
+              50
+            ]
+          },
+          "ball": "R10",
+          "focus": [
+            "R10"
+          ],
+          "zone": {
+            "x": 58,
+            "y": 22,
+            "w": 26,
+            "h": 16,
+            "label": "za linií zálohy"
+          }
+        },
+        {
+          "id": "f_2_7",
+          "text": "Na míčové straně jsou najednou tři hráči proti dvěma. Přečíslení není náhoda, je to cíl celé mezihry.",
+          "positions": {
+            "RWB": [
+              92,
+              24
+            ],
+            "RCB": [
+              76,
+              42
+            ],
+            "CM": [
+              62,
+              36
+            ],
+            "oRM": [
+              74,
+              32
+            ],
+            "oRB": [
+              80,
+              22
+            ]
+          },
+          "ball": "R10",
+          "focus": [
+            "R10",
+            "RWB",
+            "RCB"
+          ],
+          "zone": {
+            "x": 62,
+            "y": 18,
+            "w": 36,
+            "h": 24,
+            "label": "3 na 2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s_precisleni",
+      "name": "Přečíslení",
+      "badge": "Fáze 3",
+      "title": "Přečíslení na kraji a centr",
+      "keyPoints": [
+        "Přečíslení tvoří tři hráči: desítka v polokoridoru, křídelní bek u lajny a vysunutý krajní stoper jako třetí.",
+        "Desítka vedením míče dovnitř vytáhne bránícího hráče, čímž uvolní kraj pro křídelního beka.",
+        "Vápno se osazuje ve třech vlnách: přední tyč, prostor puntíku, zadní tyč.",
+        "Protilehlý křídelní bek nabíhá na zadní tyč — je to hráč, kterého bránící tým nejčastěji ztratí z dohledu.",
+        "Šestka zůstává na hranici vápna pro odražený míč, dva stopeři jistí protiútok."
+      ],
+      "frames": [
+        {
+          "id": "f_3_1",
+          "text": "Finální fáze na pravé straně. Soupeř brání v nízkém bloku, cíl je dostat se okolo něj a centrovat na osazené vápno.",
+          "positions": {
+            "GK": [
+              50,
+              80
+            ],
+            "LCB": [
+              30,
+              52
+            ],
+            "CB": [
+              50,
+              56
+            ],
+            "RCB": [
+              70,
+              50
+            ],
+            "LWB": [
+              8,
+              26
+            ],
+            "RWB": [
+              92,
+              26
+            ],
+            "DM": [
+              46,
+              44
+            ],
+            "CM": [
+              58,
+              42
+            ],
+            "L10": [
+              34,
+              26
+            ],
+            "R10": [
+              66,
+              26
+            ],
+            "ST": [
+              50,
+              16
+            ],
+            "oGK": [
+              50,
+              5
+            ],
+            "oLB": [
+              20,
+              16
+            ],
+            "oLCB": [
+              41,
+              14
+            ],
+            "oRCB": [
+              59,
+              14
+            ],
+            "oRB": [
+              80,
+              16
+            ],
+            "oLM": [
+              26,
+              30
+            ],
+            "oCM1": [
+              42,
+              30
+            ],
+            "oCM2": [
+              58,
+              30
+            ],
+            "oRM": [
+              74,
+              30
+            ],
+            "oAM": [
+              46,
+              40
+            ],
+            "oST": [
+              52,
+              44
+            ]
+          },
+          "ball": "CM",
+          "holdMs": 2400
+        },
+        {
+          "id": "f_3_2",
+          "text": "Míč do polokoridoru na desítku. Ta vytahuje krajního záložníka nebo obránce ven z bloku.",
+          "positions": {
+            "R10": [
+              66,
+              26
+            ],
+            "oRM": [
+              70,
+              28
+            ]
+          },
+          "ball": "R10",
+          "focus": [
+            "R10"
+          ]
+        },
+        {
+          "id": "f_3_3",
+          "text": "Vedením míče dovnitř přidá tlak na střed. Zároveň křídelní bek obíhá zvenku a krajní stoper vystupuje jako třetí hráč přečíslení.",
+          "positions": {
+            "R10": [
+              60,
+              24
+            ],
+            "RWB": [
+              92,
+              18
+            ],
+            "RCB": [
+              76,
+              36
+            ],
+            "oRB": [
+              78,
+              20
+            ],
+            "oCM2": [
+              56,
+              28
+            ]
+          },
+          "ball": "R10",
+          "focus": [
+            "R10",
+            "RWB",
+            "RCB"
+          ],
+          "zone": {
+            "x": 60,
+            "y": 12,
+            "w": 38,
+            "h": 26,
+            "label": "3 na 2"
+          }
+        },
+        {
+          "id": "f_3_4",
+          "text": "Přihrávka za obránce. Křídelní bek má míč ve finální třetině a před sebou prostor na centr.",
+          "positions": {
+            "RWB": [
+              92,
+              13
+            ]
+          },
+          "ball": "RWB",
+          "focus": [
+            "RWB"
+          ]
+        },
+        {
+          "id": "f_3_5",
+          "text": "Vápno se osazuje: útočník na přední tyč, druhá desítka na puntík, protilehlý křídelní bek doráží na zadní tyč. Šestka drží hranici vápna.",
+          "positions": {
+            "ST": [
+              56,
+              9
+            ],
+            "L10": [
+              50,
+              12
+            ],
+            "LWB": [
+              44,
+              11
+            ],
+            "CM": [
+              52,
+              20
+            ],
+            "DM": [
+              50,
+              30
+            ],
+            "LCB": [
+              36,
+              44
+            ],
+            "CB": [
+              52,
+              46
+            ]
+          },
+          "ball": "RWB",
+          "focus": [
+            "ST",
+            "L10",
+            "LWB"
+          ],
+          "zone": {
+            "x": 38,
+            "y": 5,
+            "w": 26,
+            "h": 14,
+            "label": "tři vlny náběhu"
+          },
+          "holdMs": 3000
+        },
+        {
+          "id": "f_3_6",
+          "text": "Centr míří za obranu do prostoru mezi brankáře a zadní tyč. Nejnebezpečnější je přitom protilehlý křídelní bek, kterého obrana typicky nesleduje.",
+          "positions": {},
+          "ball": [
+            45,
+            10
+          ],
+          "arc": 0.28,
+          "ballSpeed": 0.6,
+          "focus": [
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_3_7",
+          "text": "Gól. Přesně tenhle obrazec — přečíslení na kraji a centr na zadní tyč — je podpis Glasnerova Palace.",
+          "positions": {
+            "LWB": [
+              45,
+              9
+            ]
+          },
+          "ball": [
+            50,
+            -1
+          ],
+          "ballSpeed": 0.4,
+          "flash": "GÓL",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_leva-strana",
+      "name": "Levá strana",
+      "badge": "Fáze 4",
+      "title": "Zpětná přihrávka zleva",
+      "keyPoints": [
+        "Náběh desítky dovnitř a obíhání křídelního beka zvenku: dva hráči, dva různé koridory, jeden obránce.",
+        "Cesta až na základní čáru mění úhel — obrana musí couvat čelem k vlastní bráně.",
+        "Zpětná přihrávka na hranici vápna je statisticky nejhodnotnější typ centru.",
+        "Náběh na přední tyč není vždy pro míč: často jen odtáhne obránce a otevře prostor za ním."
+      ],
+      "frames": [
+        {
+          "id": "f_4_1",
+          "text": "Stejný princip zrcadlově na levé straně, ale s jiným zakončením — místo centru na zadní tyč přijde zpětná přihrávka.",
+          "positions": {
+            "GK": [
+              50,
+              80
+            ],
+            "LCB": [
+              30,
+              52
+            ],
+            "CB": [
+              50,
+              56
+            ],
+            "RCB": [
+              70,
+              50
+            ],
+            "LWB": [
+              8,
+              26
+            ],
+            "RWB": [
+              92,
+              26
+            ],
+            "DM": [
+              46,
+              44
+            ],
+            "CM": [
+              58,
+              42
+            ],
+            "L10": [
+              34,
+              26
+            ],
+            "R10": [
+              66,
+              26
+            ],
+            "ST": [
+              50,
+              16
+            ],
+            "oGK": [
+              50,
+              5
+            ],
+            "oLB": [
+              20,
+              16
+            ],
+            "oLCB": [
+              41,
+              14
+            ],
+            "oRCB": [
+              59,
+              14
+            ],
+            "oRB": [
+              80,
+              16
+            ],
+            "oLM": [
+              26,
+              30
+            ],
+            "oCM1": [
+              42,
+              30
+            ],
+            "oCM2": [
+              58,
+              30
+            ],
+            "oRM": [
+              74,
+              30
+            ],
+            "oAM": [
+              46,
+              40
+            ],
+            "oST": [
+              52,
+              44
+            ]
+          },
+          "ball": "DM",
+          "holdMs": 2400
+        },
+        {
+          "id": "f_4_2",
+          "text": "Míč putuje do levého polokoridoru na desítku, která přijímá otevřeným tělem směrem do hřiště.",
+          "positions": {
+            "L10": [
+              34,
+              26
+            ]
+          },
+          "ball": "L10",
+          "focus": [
+            "L10"
+          ]
+        },
+        {
+          "id": "f_4_3",
+          "text": "Vedení míče dovnitř vytáhne bránící hráče do středu a otevře kraj. Křídelní bek už obíhá zvenku.",
+          "positions": {
+            "L10": [
+              44,
+              24
+            ],
+            "LWB": [
+              10,
+              16
+            ],
+            "oLM": [
+              32,
+              26
+            ],
+            "oLB": [
+              24,
+              18
+            ]
+          },
+          "ball": "L10",
+          "focus": [
+            "L10",
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_4_4",
+          "text": "Přihrávka do prostoru za obranu. Křídelní bek jde s míčem až na základní čáru — obrana couvá čelem k vlastní bráně.",
+          "positions": {
+            "LWB": [
+              13,
+              7
+            ],
+            "oLB": [
+              30,
+              10
+            ]
+          },
+          "ball": "LWB",
+          "focus": [
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_4_5",
+          "text": "Vápno je osazené ve třech úrovních: přední tyč, prostor puntíku a hranice vápna. Náběh na přední tyč hlavně odtahuje obránce.",
+          "positions": {
+            "ST": [
+              45,
+              9
+            ],
+            "R10": [
+              54,
+              12
+            ],
+            "L10": [
+              42,
+              15
+            ],
+            "CM": [
+              50,
+              20
+            ],
+            "DM": [
+              48,
+              30
+            ],
+            "RCB": [
+              64,
+              44
+            ],
+            "CB": [
+              50,
+              46
+            ]
+          },
+          "ball": "LWB",
+          "focus": [
+            "ST",
+            "R10",
+            "CM"
+          ],
+          "holdMs": 3000
+        },
+        {
+          "id": "f_4_6",
+          "text": "Zpětná přihrávka na hranici vápna, kam nabíhá záložník z druhé vlny. Brankář ani obránci nemají čas se otočit.",
+          "positions": {},
+          "ball": [
+            50,
+            20
+          ],
+          "ballSpeed": 0.55,
+          "focus": [
+            "CM"
+          ]
+        },
+        {
+          "id": "f_4_7",
+          "text": "Gól. Zakončení z prostoru, který nízký blok skoro nikdy neubrání — protože všichni sledují míč u základní čáry.",
+          "positions": {
+            "CM": [
+              50,
+              20
+            ]
+          },
+          "ball": [
+            50,
+            -1
+          ],
+          "ballSpeed": 0.35,
+          "flash": "GÓL",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_presink",
+      "name": "Presink",
+      "badge": "Fáze 5",
+      "title": "Vysoký presink 5-2-3",
+      "keyPoints": [
+        "Obě desítky vystoupí vedle útočníka — z 3-4-2-1 se bez míče stává 5-2-3.",
+        "Spouštěč je přihrávka na krajního obránce: v tu chvíli křídelní bek agresivně vyskakuje z pětice.",
+        "Presuje se v oblouku, stínem, aby byla zavřená přihrávka do středu. Soupeř je tlačen k lajně, která brání za nás.",
+        "Zadní linie se posouvá nahoru společně s presinkem — jinak vznikne mezi řadami díra.",
+        "Po zisku míče je první myšlenka vždy dopředu, ne do bezpečí."
+      ],
+      "frames": [
+        {
+          "id": "f_5_1",
+          "text": "Bez míče Palace přechází do 5-2-3: obě desítky vystoupí vedle útočníka a tvoří přední trojici proti rozehrávce soupeře.",
+          "positions": {
+            "GK": [
+              50,
+              72
+            ],
+            "LCB": [
+              32,
+              52
+            ],
+            "CB": [
+              50,
+              54
+            ],
+            "RCB": [
+              68,
+              52
+            ],
+            "LWB": [
+              16,
+              38
+            ],
+            "RWB": [
+              84,
+              38
+            ],
+            "DM": [
+              44,
+              38
+            ],
+            "CM": [
+              56,
+              38
+            ],
+            "L10": [
+              38,
+              24
+            ],
+            "R10": [
+              62,
+              24
+            ],
+            "ST": [
+              50,
+              22
+            ],
+            "oGK": [
+              50,
+              6
+            ],
+            "oLCB": [
+              42,
+              18
+            ],
+            "oRCB": [
+              58,
+              18
+            ],
+            "oLB": [
+              18,
+              26
+            ],
+            "oRB": [
+              82,
+              26
+            ],
+            "oCM1": [
+              44,
+              32
+            ],
+            "oCM2": [
+              56,
+              32
+            ],
+            "oLM": [
+              24,
+              44
+            ],
+            "oRM": [
+              76,
+              44
+            ],
+            "oAM": [
+              50,
+              40
+            ],
+            "oST": [
+              50,
+              52
+            ]
+          },
+          "ball": "oGK",
+          "zone": {
+            "x": 30,
+            "y": 16,
+            "w": 40,
+            "h": 14,
+            "label": "přední trojice"
+          },
+          "holdMs": 2600
+        },
+        {
+          "id": "f_5_2",
+          "text": "Spouštěč číslo jedna: přihrávka brankáře na stopera. Desítka nabíhá v oblouku tak, aby stínem zavřela přihrávku do středu.",
+          "positions": {
+            "L10": [
+              40,
+              20
+            ],
+            "ST": [
+              52,
+              20
+            ]
+          },
+          "ball": "oLCB",
+          "focus": [
+            "L10"
+          ]
+        },
+        {
+          "id": "f_5_3",
+          "text": "Hlavní spouštěč: míč na krajního obránce u lajny. Křídelní bek okamžitě agresivně vyskakuje z pětice.",
+          "positions": {
+            "LWB": [
+              18,
+              32
+            ],
+            "oLB": [
+              18,
+              26
+            ]
+          },
+          "ball": "oLB",
+          "focus": [
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_5_4",
+          "text": "Celý blok se posouvá nahoru — zadní trojice stlačuje prostor, aby mezi řadami nezůstala díra. Soupeř má u lajny jen dvě špatné možnosti.",
+          "positions": {
+            "LWB": [
+              18,
+              28
+            ],
+            "LCB": [
+              30,
+              44
+            ],
+            "CB": [
+              50,
+              46
+            ],
+            "RCB": [
+              66,
+              44
+            ],
+            "DM": [
+              42,
+              34
+            ],
+            "CM": [
+              54,
+              34
+            ],
+            "L10": [
+              34,
+              24
+            ]
+          },
+          "ball": "oLB",
+          "focus": [
+            "LWB",
+            "LCB"
+          ],
+          "zone": {
+            "x": 6,
+            "y": 18,
+            "w": 34,
+            "h": 20,
+            "label": "past u lajny"
+          }
+        },
+        {
+          "id": "f_5_5",
+          "text": "Zisk míče vysoko na hřišti. První myšlenka je vždy dopředu — do útočníka nebo rovnou za obranu.",
+          "positions": {
+            "LWB": [
+              20,
+              26
+            ]
+          },
+          "ball": "LWB",
+          "focus": [
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_5_6",
+          "text": "Přihrávka do útočníka, odraz na nabíhající desítku. Od zisku míče po zakončení uběhne pár sekund.",
+          "positions": {
+            "ST": [
+              48,
+              18
+            ],
+            "R10": [
+              56,
+              20
+            ]
+          },
+          "ball": "ST",
+          "focus": [
+            "ST",
+            "R10"
+          ]
+        },
+        {
+          "id": "f_5_7",
+          "text": "Gól. Vysoký zisk míče je nejlevnější způsob, jak vytvořit šanci — hra začíná dvacet metrů od branky.",
+          "positions": {
+            "R10": [
+              54,
+              16
+            ]
+          },
+          "ball": [
+            50,
+            -1
+          ],
+          "ballSpeed": 0.4,
+          "flash": "GÓL",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_blok",
+      "name": "Blok",
+      "badge": "Fáze 6",
+      "title": "Blok 5-4-1 a protiútok",
+      "keyPoints": [
+        "Bez míče v hlubokém bloku: pět v lajně, čtyři před nimi, střed vápna zavřený.",
+        "Blok se posouvá jako jeden celek na míčovou stranu, vzdálenosti mezi hráči zůstávají malé.",
+        "Zdvojení na kraji: křídelní bek vystupuje, desítka zavírá vnitřní přihrávku, stoper jistí prostor za zády.",
+        "Po zisku míče útočník drží první přihrávku, desítky sbírají odražené míče.",
+        "Protilehlý křídelní bek běží padesát metrů dopředu — protiútok končí stejným vzorcem jako postupný útok."
+      ],
+      "frames": [
+        {
+          "id": "f_6_1",
+          "text": "Bez míče v hlubokém bloku Palace zaklesne do 5-4-1. Pět v lajně, čtyři před nimi, střed vápna zavřený — soupeř má hrát jen po krajích.",
+          "positions": {
+            "GK": [
+              50,
+              92
+            ],
+            "LCB": [
+              34,
+              80
+            ],
+            "CB": [
+              50,
+              82
+            ],
+            "RCB": [
+              66,
+              80
+            ],
+            "LWB": [
+              18,
+              78
+            ],
+            "RWB": [
+              82,
+              78
+            ],
+            "DM": [
+              44,
+              68
+            ],
+            "CM": [
+              56,
+              68
+            ],
+            "L10": [
+              26,
+              66
+            ],
+            "R10": [
+              74,
+              66
+            ],
+            "ST": [
+              50,
+              50
+            ],
+            "oGK": [
+              50,
+              6
+            ],
+            "oLCB": [
+              40,
+              40
+            ],
+            "oRCB": [
+              60,
+              40
+            ],
+            "oLB": [
+              16,
+              56
+            ],
+            "oRB": [
+              84,
+              56
+            ],
+            "oCM1": [
+              42,
+              58
+            ],
+            "oCM2": [
+              58,
+              56
+            ],
+            "oAM": [
+              50,
+              66
+            ],
+            "oLM": [
+              26,
+              72
+            ],
+            "oRM": [
+              74,
+              72
+            ],
+            "oST": [
+              50,
+              76
+            ]
+          },
+          "ball": "oRCB",
+          "holdMs": 2600
+        },
+        {
+          "id": "f_6_2",
+          "text": "Soupeř posílá míč na kraj. Blok se posouvá jako jeden celek — mezery mezi hráči zůstávají malé, střed se nesmí otevřít.",
+          "positions": {
+            "LCB": [
+              40,
+              80
+            ],
+            "CB": [
+              56,
+              82
+            ],
+            "RCB": [
+              70,
+              79
+            ],
+            "LWB": [
+              26,
+              76
+            ],
+            "RWB": [
+              86,
+              74
+            ],
+            "DM": [
+              50,
+              68
+            ],
+            "CM": [
+              62,
+              66
+            ],
+            "L10": [
+              34,
+              66
+            ],
+            "R10": [
+              78,
+              64
+            ],
+            "ST": [
+              56,
+              50
+            ]
+          },
+          "ball": "oRB",
+          "focus": [
+            "RWB",
+            "R10"
+          ]
+        },
+        {
+          "id": "f_6_3",
+          "text": "Zdvojení na kraji: křídelní bek vystoupí na hráče s míčem, desítka zavírá vnitřní přihrávku, stoper jistí prostor za jeho zády.",
+          "positions": {
+            "RWB": [
+              86,
+              68
+            ],
+            "R10": [
+              78,
+              68
+            ],
+            "RCB": [
+              72,
+              76
+            ],
+            "oRB": [
+              84,
+              62
+            ]
+          },
+          "ball": "oRB",
+          "focus": [
+            "RWB",
+            "R10",
+            "RCB"
+          ],
+          "zone": {
+            "x": 66,
+            "y": 58,
+            "w": 32,
+            "h": 20,
+            "label": "zdvojení"
+          }
+        },
+        {
+          "id": "f_6_4",
+          "text": "Zisk míče a okamžitý přechod. První přihrávka jde do útočníka, který si přibíjí stopera a drží míč.",
+          "positions": {
+            "RWB": [
+              84,
+              64
+            ],
+            "ST": [
+              52,
+              54
+            ],
+            "oRCB": [
+              54,
+              44
+            ]
+          },
+          "ball": "ST",
+          "focus": [
+            "ST"
+          ]
+        },
+        {
+          "id": "f_6_5",
+          "text": "Odraz na desítku, která už běží dopředu. Ve stejné vteřině startuje protilehlý křídelní bek na padesátimetrový sprint.",
+          "positions": {
+            "R10": [
+              66,
+              50
+            ],
+            "LWB": [
+              14,
+              52
+            ],
+            "L10": [
+              42,
+              40
+            ]
+          },
+          "ball": "R10",
+          "focus": [
+            "R10",
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_6_6",
+          "text": "Ve finální třetině je z protiútoku znovu přečíslení. Vzor je stejný jako u postupného útoku — jen se k němu tým dostal jinou cestou.",
+          "positions": {
+            "R10": [
+              72,
+              26
+            ],
+            "LWB": [
+              12,
+              26
+            ],
+            "L10": [
+              46,
+              18
+            ],
+            "ST": [
+              56,
+              16
+            ],
+            "CM": [
+              56,
+              36
+            ],
+            "DM": [
+              50,
+              48
+            ]
+          },
+          "ball": "R10",
+          "focus": [
+            "R10",
+            "LWB",
+            "L10"
+          ],
+          "holdMs": 2800
+        },
+        {
+          "id": "f_6_7",
+          "text": "Centr na vzdálenou tyč, kam dobíhá křídelní bek z opačné strany. Gól.",
+          "positions": {
+            "LWB": [
+              44,
+              12
+            ]
+          },
+          "ball": [
+            44,
+            12
+          ],
+          "arc": 0.26,
+          "ballSpeed": 0.6,
+          "focus": [
+            "LWB"
+          ]
+        },
+        {
+          "id": "f_6_8",
+          "text": "Palace nepotřebuje jiný scénář pro protiútok — používá stejné vzorce, jen rychleji.",
+          "positions": {},
+          "ball": [
+            50,
+            -1
+          ],
+          "ballSpeed": 0.35,
+          "flash": "GÓL",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_standardky",
+      "name": "Standardky",
+      "badge": "Fáze 7",
+      "title": "Rohový kop",
+      "keyPoints": [
+        "Standardky jsou samostatná zbraň, ne doplněk — tréninkově se jim věnuje stejná pozornost jako hře z pole.",
+        "Shluk hráčů u puntíku znemožňuje osobní bránění: obránci nevědí, koho mají převzít.",
+        "Jeden hráč blokuje brankáři výběh, další klame náběhem na přední tyč.",
+        "Míč letí do prostoru mezi brankářem a zadní tyčí — tam, kam brankář nemůže.",
+        "Na hranici vápna zůstávají hráči pro doražení a zároveň pro jištění protiútoku."
+      ],
+      "frames": [
+        {
+          "id": "f_7_1",
+          "text": "Rohový kop zprava. Palace staví „balík\" — shluk hráčů kolem penaltového puntíku, který znemožňuje osobní bránění.",
+          "positions": {
+            "RWB": [
+              97,
+              3
+            ],
+            "ST": [
+              52,
+              15
+            ],
+            "L10": [
+              49,
+              16
+            ],
+            "R10": [
+              55,
+              17
+            ],
+            "LCB": [
+              46,
+              17
+            ],
+            "LWB": [
+              57,
+              12
+            ],
+            "CM": [
+              50,
+              26
+            ],
+            "DM": [
+              62,
+              24
+            ],
+            "CB": [
+              50,
+              50
+            ],
+            "RCB": [
+              42,
+              52
+            ],
+            "GK": [
+              50,
+              88
+            ],
+            "oGK": [
+              50,
+              4
+            ],
+            "oLCB": [
+              56,
+              7
+            ],
+            "oRCB": [
+              52,
+              7
+            ],
+            "oLB": [
+              47,
+              7
+            ],
+            "oRB": [
+              50,
+              13
+            ],
+            "oCM1": [
+              54,
+              14
+            ],
+            "oCM2": [
+              46,
+              15
+            ],
+            "oLM": [
+              58,
+              16
+            ],
+            "oRM": [
+              50,
+              22
+            ],
+            "oAM": [
+              42,
+              20
+            ],
+            "oST": [
+              30,
+              30
+            ]
+          },
+          "ball": "RWB",
+          "zone": {
+            "x": 42,
+            "y": 10,
+            "w": 20,
+            "h": 12,
+            "label": "„balík\""
+          },
+          "holdMs": 2800
+        },
+        {
+          "id": "f_7_2",
+          "text": "Těsně před centrem se shluk rozpadá do tří směrů. Jeden hráč blokuje brankáři výběh, druhý klame náběhem na přední tyč.",
+          "positions": {
+            "LWB": [
+              52,
+              7
+            ],
+            "ST": [
+              58,
+              9
+            ],
+            "L10": [
+              45,
+              9
+            ],
+            "LCB": [
+              50,
+              11
+            ],
+            "R10": [
+              57,
+              14
+            ]
+          },
+          "ball": "RWB",
+          "focus": [
+            "ST",
+            "L10",
+            "LWB"
+          ],
+          "holdMs": 2600
+        },
+        {
+          "id": "f_7_3",
+          "text": "Centr letí do prostoru mezi brankáře a zadní tyč — tam, kam brankář kvůli blokujícímu hráči nemůže vyjít.",
+          "positions": {},
+          "ball": [
+            45,
+            9
+          ],
+          "arc": 0.3,
+          "ballSpeed": 0.62,
+          "focus": [
+            "L10"
+          ]
+        },
+        {
+          "id": "f_7_4",
+          "text": "Hlavička ze zadní tyče. Kombinace shluku, blokování brankáře a klamných náběhů dělá z rohu skoro tréninkovou situaci.",
+          "positions": {
+            "L10": [
+              45,
+              8
+            ]
+          },
+          "ball": [
+            50,
+            -1
+          ],
+          "ballSpeed": 0.35,
+          "flash": "GÓL",
+          "holdMs": 2600
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "version": 1
+}

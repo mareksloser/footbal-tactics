@@ -1,0 +1,1726 @@
+{
+  "id": "t_zastupovani-vysoke-mice-a-auty-1-4-4-2",
+  "title": "Zastupování, vysoké míče a auty (1-4-4-2)",
+  "description": "Obranná organizace pro mládež: vyzývatel a jistič, zastupování, bránění centrů a standardky z autu.",
+  "folderId": null,
+  "players": [
+    {
+      "id": "CM1",
+      "label": "SZ",
+      "team": "home"
+    },
+    {
+      "id": "CM2",
+      "label": "SZ",
+      "team": "home"
+    },
+    {
+      "id": "GK",
+      "label": "B",
+      "team": "home"
+    },
+    {
+      "id": "LB",
+      "label": "LO",
+      "team": "home"
+    },
+    {
+      "id": "LCB",
+      "label": "SO",
+      "team": "home"
+    },
+    {
+      "id": "LM",
+      "label": "LZ",
+      "team": "home"
+    },
+    {
+      "id": "RB",
+      "label": "PO",
+      "team": "home"
+    },
+    {
+      "id": "RCB",
+      "label": "SO",
+      "team": "home"
+    },
+    {
+      "id": "RM",
+      "label": "PZ",
+      "team": "home"
+    },
+    {
+      "id": "ST1",
+      "label": "Ú",
+      "team": "home"
+    },
+    {
+      "id": "ST2",
+      "label": "Ú",
+      "team": "home"
+    },
+    {
+      "id": "oAM",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oCM1",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oCM2",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oGK",
+      "label": "B",
+      "team": "away"
+    },
+    {
+      "id": "oLB",
+      "label": "O",
+      "team": "away"
+    },
+    {
+      "id": "oLCB",
+      "label": "O",
+      "team": "away"
+    },
+    {
+      "id": "oLM",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oRB",
+      "label": "O",
+      "team": "away"
+    },
+    {
+      "id": "oRCB",
+      "label": "O",
+      "team": "away"
+    },
+    {
+      "id": "oRM",
+      "label": "Z",
+      "team": "away"
+    },
+    {
+      "id": "oST",
+      "label": "Ú",
+      "team": "away"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "s_vysoky-mic",
+      "name": "Vysoký míč",
+      "badge": "Situace 1",
+      "title": "Vysoký míč na útočníka",
+      "keyPoints": [
+        "Jeden vyzývá, druhý jistí. Nikdy nejdou do souboje dva a nikdy nezůstane vyzývatel sám.",
+        "Jistič stojí diagonálně 5–8 m za vyzývatelem, ne vedle něj v jedné rovině.",
+        "Hlavičkuje se dopředu, nahoru a do strany — nikdy měkce doprostřed před vlastní vápno.",
+        "Souboj rozhoduje ten, kdo se pohne dřív. Vyzývatel jde útočníkovi do zad ještě během letu míče.",
+        "Rozhoduje se až o druhý míč: celý tým se stahuje do trychtýře kolem místa dopadu, vzdálenosti 8–10 m."
+      ],
+      "frames": [
+        {
+          "id": "f_1_1",
+          "text": "Soupeř se chystá odkopnout dlouhý míč na svého útočníka. V tu chvíli se rozhoduje, kdo jde do souboje a kdo zajišťuje prostor za ním.",
+          "positions": {
+            "GK": [
+              50,
+              90
+            ],
+            "LB": [
+              24,
+              74
+            ],
+            "LCB": [
+              41,
+              77
+            ],
+            "RCB": [
+              59,
+              77
+            ],
+            "RB": [
+              76,
+              74
+            ],
+            "LM": [
+              26,
+              60
+            ],
+            "CM1": [
+              42,
+              63
+            ],
+            "CM2": [
+              58,
+              62
+            ],
+            "RM": [
+              74,
+              60
+            ],
+            "ST1": [
+              42,
+              44
+            ],
+            "ST2": [
+              58,
+              44
+            ],
+            "oGK": [
+              50,
+              8
+            ],
+            "oLCB": [
+              40,
+              24
+            ],
+            "oRCB": [
+              60,
+              24
+            ],
+            "oLB": [
+              18,
+              34
+            ],
+            "oRB": [
+              82,
+              34
+            ],
+            "oCM1": [
+              42,
+              42
+            ],
+            "oCM2": [
+              58,
+              42
+            ],
+            "oLM": [
+              22,
+              54
+            ],
+            "oRM": [
+              78,
+              54
+            ],
+            "oAM": [
+              50,
+              52
+            ],
+            "oST": [
+              50,
+              66
+            ]
+          },
+          "ball": "oRCB",
+          "holdMs": 2800
+        },
+        {
+          "id": "f_1_2",
+          "text": "Míč letí. Bližší stoper vystupuje do souboje, druhý stoper se okamžitě posouvá diagonálně za jeho záda. Krajní obránci se zužují dovnitř.",
+          "positions": {
+            "RCB": [
+              55,
+              70
+            ],
+            "LCB": [
+              45,
+              80
+            ],
+            "LB": [
+              30,
+              76
+            ],
+            "RB": [
+              68,
+              74
+            ],
+            "CM1": [
+              46,
+              60
+            ],
+            "CM2": [
+              56,
+              58
+            ],
+            "oST": [
+              52,
+              66
+            ]
+          },
+          "ball": [
+            52,
+            66
+          ],
+          "arc": 0.22,
+          "ballSpeed": 0.85,
+          "focus": [
+            "RCB",
+            "LCB"
+          ],
+          "durMs": 1700
+        },
+        {
+          "id": "f_1_3",
+          "text": "Souboj. Vyzývatel jde do útočníka zepředu a hlavičkuje dopředu a do strany. Kdyby couval, hlavičkoval by míč zpátky před vlastní bránu.",
+          "positions": {
+            "RCB": [
+              53,
+              68
+            ]
+          },
+          "ball": [
+            52,
+            67
+          ],
+          "focus": [
+            "RCB"
+          ],
+          "holdMs": 2200
+        },
+        {
+          "id": "f_1_4",
+          "text": "Odražený míč padá do prostoru před soubojem. Vyhrává ho ten tým, který byl blíž — proto se záložníci stahovali už během letu míče.",
+          "positions": {
+            "CM1": [
+              48,
+              58
+            ],
+            "CM2": [
+              54,
+              56
+            ],
+            "oCM1": [
+              42,
+              48
+            ],
+            "oCM2": [
+              56,
+              48
+            ]
+          },
+          "ball": [
+            49,
+            58
+          ],
+          "arc": 0.15,
+          "ballSpeed": 0.6,
+          "focus": [
+            "CM1"
+          ],
+          "zone": {
+            "x": 34,
+            "y": 50,
+            "w": 34,
+            "h": 16,
+            "label": "prostor druhých míčů"
+          }
+        },
+        {
+          "id": "f_1_5",
+          "text": "Zisk míče. Vysoký míč soupeře skončil jako naše rozehra — a to je celý smysl zastoupení a stahování.",
+          "positions": {
+            "CM1": [
+              48,
+              57
+            ],
+            "LCB": [
+              44,
+              74
+            ],
+            "RCB": [
+              56,
+              72
+            ],
+            "LB": [
+              26,
+              68
+            ],
+            "RB": [
+              74,
+              68
+            ]
+          },
+          "ball": "CM1",
+          "flash": "DRUHÝ MÍČ NÁŠ",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_zastupovani",
+      "name": "Zastupování",
+      "badge": "Situace 2",
+      "title": "Zastupování při vystoupení",
+      "keyPoints": [
+        "Vystupuje vždy jen jeden hráč. Ostatní na jeho pohyb reagují, ne naopak.",
+        "Prostor za vystupujícím krajním obráncem zastupuje bližší stoper — ne záložník, ten by na to nedoběhl.",
+        "Zbytek obrany se posouvá po diagonále: vzdálený krajní obránec zúží dovnitř a dočasně z něj je třetí stoper.",
+        "Zastupování začíná už během přihrávky soupeře, ne až když míč dojde ke křídlu.",
+        "Je to dočasný stav. Po vyřešení situace se linie okamžitě srovná a posune ven."
+      ],
+      "frames": [
+        {
+          "id": "f_2_1",
+          "text": "Základní blok 1-4-4-2. Míč je u soupeře ve středu — obranná čtyřka drží rovinu a čeká, kam půjde míč.",
+          "positions": {
+            "GK": [
+              50,
+              90
+            ],
+            "LB": [
+              24,
+              74
+            ],
+            "LCB": [
+              41,
+              77
+            ],
+            "RCB": [
+              59,
+              77
+            ],
+            "RB": [
+              76,
+              74
+            ],
+            "LM": [
+              26,
+              60
+            ],
+            "CM1": [
+              42,
+              63
+            ],
+            "CM2": [
+              58,
+              62
+            ],
+            "RM": [
+              74,
+              60
+            ],
+            "ST1": [
+              42,
+              44
+            ],
+            "ST2": [
+              58,
+              44
+            ],
+            "oGK": [
+              50,
+              8
+            ],
+            "oLCB": [
+              40,
+              24
+            ],
+            "oRCB": [
+              60,
+              24
+            ],
+            "oLB": [
+              18,
+              34
+            ],
+            "oRB": [
+              82,
+              34
+            ],
+            "oCM1": [
+              42,
+              42
+            ],
+            "oCM2": [
+              58,
+              42
+            ],
+            "oLM": [
+              22,
+              54
+            ],
+            "oRM": [
+              78,
+              54
+            ],
+            "oAM": [
+              50,
+              52
+            ],
+            "oST": [
+              50,
+              66
+            ]
+          },
+          "ball": "oCM2",
+          "holdMs": 2600
+        },
+        {
+          "id": "f_2_2",
+          "text": "Přihrávka na kraj. Nejbližší obránce vystupuje na hráče s míčem — od téhle vteřiny běží celé zastupování.",
+          "positions": {
+            "RB": [
+              78,
+              58
+            ],
+            "oRM": [
+              80,
+              52
+            ]
+          },
+          "ball": "oRM",
+          "focus": [
+            "RB"
+          ],
+          "durMs": 1400
+        },
+        {
+          "id": "f_2_3",
+          "text": "Bližší stoper zastupuje prostor za vystupujícím obráncem, druhý stoper se posouvá do středu a vzdálený krajní obránec zúží dovnitř.",
+          "positions": {
+            "RCB": [
+              66,
+              70
+            ],
+            "LCB": [
+              52,
+              74
+            ],
+            "LB": [
+              36,
+              72
+            ],
+            "CM2": [
+              68,
+              58
+            ],
+            "RM": [
+              76,
+              50
+            ]
+          },
+          "ball": "oRM",
+          "focus": [
+            "RCB",
+            "LCB",
+            "LB"
+          ],
+          "zone": {
+            "x": 60,
+            "y": 60,
+            "w": 34,
+            "h": 20,
+            "label": "zastoupený prostor"
+          },
+          "holdMs": 2800
+        },
+        {
+          "id": "f_2_4",
+          "text": "Soupeř zkusí míč za obranu. Jistič je tam dřív, protože se posouval už během přihrávky, ne až po ní.",
+          "positions": {
+            "oRM": [
+              82,
+              58
+            ],
+            "RCB": [
+              74,
+              74
+            ],
+            "RB": [
+              80,
+              62
+            ]
+          },
+          "ball": [
+            80,
+            72
+          ],
+          "ballSpeed": 0.7,
+          "focus": [
+            "RCB"
+          ]
+        },
+        {
+          "id": "f_2_5",
+          "text": "Míč je pryč. Linie se hned srovnává a posouvá dopředu — zastupování je dočasné řešení, ne nové rozestavení.",
+          "positions": {
+            "GK": [
+              50,
+              90
+            ],
+            "LB": [
+              24,
+              74
+            ],
+            "LCB": [
+              41,
+              77
+            ],
+            "RCB": [
+              59,
+              77
+            ],
+            "RB": [
+              76,
+              74
+            ],
+            "LM": [
+              26,
+              60
+            ],
+            "CM1": [
+              42,
+              63
+            ],
+            "CM2": [
+              58,
+              62
+            ],
+            "RM": [
+              74,
+              60
+            ],
+            "ST1": [
+              42,
+              44
+            ],
+            "ST2": [
+              58,
+              44
+            ],
+            "oRM": [
+              80,
+              54
+            ]
+          },
+          "ball": "RCB",
+          "flash": "ZISK MÍČE",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_centr",
+      "name": "Centr",
+      "badge": "Situace 3",
+      "title": "Bránění centru do vápna",
+      "keyPoints": [
+        "Na centrujícího hráče musí být tlak. Nebráněný centr se ubránit nedá.",
+        "Obránci stojí bokem, aby viděli míč i hráče. Kdo se dívá jen na míč, dostane gól za zády.",
+        "Vápno se brání ve třech úrovních: přední tyč, prostor puntíku, zadní tyč. Plus hráč na hranici vápna proti zpětné přihrávce.",
+        "Na míč se jde dopředu. Kdo couvá a čeká na hlavičku, prohraje ji.",
+        "Odkop musí být vysoko, daleko a do strany. Hned po něm celá linie vysune ven."
+      ],
+      "frames": [
+        {
+          "id": "f_3_1",
+          "text": "Soupeř se dostal do centru z naší levé strany. Vápno se osazuje na tři úrovně a jeden hráč jde na centrujícího.",
+          "positions": {
+            "GK": [
+              50,
+              94
+            ],
+            "LCB": [
+              46,
+              92
+            ],
+            "RCB": [
+              52,
+              90
+            ],
+            "RB": [
+              58,
+              89
+            ],
+            "CM1": [
+              46,
+              86
+            ],
+            "CM2": [
+              50,
+              81
+            ],
+            "LM": [
+              30,
+              78
+            ],
+            "LB": [
+              20,
+              76
+            ],
+            "ST1": [
+              40,
+              64
+            ],
+            "ST2": [
+              56,
+              62
+            ],
+            "oLM": [
+              13,
+              74
+            ],
+            "oST": [
+              47,
+              90
+            ],
+            "oAM": [
+              53,
+              88
+            ],
+            "oRM": [
+              59,
+              87
+            ],
+            "oCM2": [
+              50,
+              79
+            ],
+            "oCM1": [
+              42,
+              72
+            ],
+            "oRB": [
+              76,
+              64
+            ],
+            "oGK": [
+              50,
+              6
+            ],
+            "oLCB": [
+              40,
+              30
+            ],
+            "oRCB": [
+              58,
+              30
+            ],
+            "oLB": [
+              24,
+              40
+            ]
+          },
+          "ball": "oLM",
+          "zone": {
+            "x": 36,
+            "y": 84,
+            "w": 30,
+            "h": 12,
+            "label": "tři úrovně obrany"
+          },
+          "holdMs": 2800
+        },
+        {
+          "id": "f_3_2",
+          "text": "Krajní obránec vystupuje na centrujícího a zkracuje mu prostor. Ve vápně stojí všichni bokem — vidí míč i svého hráče.",
+          "positions": {
+            "LB": [
+              17,
+              75
+            ],
+            "LM": [
+              26,
+              74
+            ],
+            "LCB": [
+              45,
+              91
+            ],
+            "RCB": [
+              51,
+              89
+            ],
+            "RB": [
+              57,
+              88
+            ],
+            "CM1": [
+              47,
+              85
+            ]
+          },
+          "ball": "oLM",
+          "focus": [
+            "LB"
+          ],
+          "holdMs": 2400
+        },
+        {
+          "id": "f_3_3",
+          "text": "Centr letí do prostoru puntíku. Obránce jde na míč dopředu — souboj se vyhrává pohybem, ne čekáním.",
+          "positions": {
+            "RCB": [
+              52,
+              87
+            ],
+            "oAM": [
+              54,
+              88
+            ]
+          },
+          "ball": [
+            52,
+            87
+          ],
+          "arc": 0.24,
+          "ballSpeed": 0.72,
+          "focus": [
+            "RCB"
+          ]
+        },
+        {
+          "id": "f_3_4",
+          "text": "Odkop vysoko, daleko a do strany. Nejhorší možný odkop je krátký doprostřed před vlastní vápno.",
+          "positions": {},
+          "ball": [
+            72,
+            68
+          ],
+          "arc": 0.2,
+          "ballSpeed": 0.65
+        },
+        {
+          "id": "f_3_5",
+          "text": "Hned po odkopu vysouvá celá obrana ven. Tím se soupeř vytlačí z vápna a druhý míč se hraje daleko od naší brány.",
+          "positions": {
+            "LCB": [
+              44,
+              80
+            ],
+            "RCB": [
+              54,
+              80
+            ],
+            "RB": [
+              64,
+              78
+            ],
+            "LB": [
+              28,
+              78
+            ],
+            "CM1": [
+              46,
+              72
+            ],
+            "CM2": [
+              54,
+              70
+            ],
+            "LM": [
+              30,
+              66
+            ],
+            "ST1": [
+              44,
+              56
+            ],
+            "ST2": [
+              58,
+              54
+            ]
+          },
+          "ball": [
+            72,
+            68
+          ],
+          "flash": "VYSUNOUT LINII",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_aut-soupere",
+      "name": "Aut soupeře",
+      "badge": "Situace 4",
+      "title": "Defenzivní aut",
+      "keyPoints": [
+        "Z autu neplatí ofsajd. Za obrannou linií proto nesmí zůstat nikdo sám — poslední hráč hlídá nejhlubšího útočníka.",
+        "Osobní bránění všech hráčů v okolí. Přiřazení musí být hlasité a hotové dřív, než hráč zvedne míč nad hlavu.",
+        "Jeden hráč zavře vhazujícího. Jakmile míč vhodí, je z něj hráč navíc, pokud ho nikdo nehlídá.",
+        "Bráníme těsně, ze strany a mezi hráčem a bránou — ne za zády.",
+        "Nejlepší okamžik na zisk je první dotek. Hráč je zády k bráně a nevidí, co se za ním děje."
+      ],
+      "frames": [
+        {
+          "id": "f_4_1",
+          "text": "Aut soupeře na naší polovině. Vypadá to jako klid, ale je to standardka — a z autu neplatí ofsajd.",
+          "positions": {
+            "GK": [
+              50,
+              90
+            ],
+            "LB": [
+              34,
+              76
+            ],
+            "LCB": [
+              50,
+              78
+            ],
+            "RCB": [
+              66,
+              74
+            ],
+            "RB": [
+              82,
+              70
+            ],
+            "LM": [
+              42,
+              64
+            ],
+            "CM1": [
+              58,
+              64
+            ],
+            "CM2": [
+              74,
+              58
+            ],
+            "RM": [
+              92,
+              60
+            ],
+            "ST1": [
+              50,
+              50
+            ],
+            "ST2": [
+              62,
+              46
+            ],
+            "oRM": [
+              99,
+              66
+            ],
+            "oCM2": [
+              86,
+              62
+            ],
+            "oST": [
+              80,
+              72
+            ],
+            "oAM": [
+              78,
+              56
+            ],
+            "oRB": [
+              92,
+              50
+            ],
+            "oCM1": [
+              64,
+              54
+            ],
+            "oLM": [
+              46,
+              44
+            ],
+            "oGK": [
+              50,
+              8
+            ],
+            "oLCB": [
+              42,
+              26
+            ],
+            "oRCB": [
+              58,
+              26
+            ],
+            "oLB": [
+              24,
+              34
+            ]
+          },
+          "ball": "oRM",
+          "holdMs": 2800
+        },
+        {
+          "id": "f_4_2",
+          "text": "Přiřazení osobek. Každý hráč v okolí autu má svého — a poslední obránce hlídá toho nejhlubšího, protože ofsajd tu neplatí.",
+          "positions": {
+            "RM": [
+              90,
+              62
+            ],
+            "RB": [
+              82,
+              71
+            ],
+            "CM2": [
+              76,
+              57
+            ],
+            "RCB": [
+              70,
+              72
+            ],
+            "CM1": [
+              62,
+              58
+            ]
+          },
+          "ball": "oRM",
+          "focus": [
+            "RM",
+            "RB",
+            "CM2"
+          ],
+          "zone": {
+            "x": 66,
+            "y": 44,
+            "w": 34,
+            "h": 34,
+            "label": "osobní bránění"
+          },
+          "holdMs": 2800
+        },
+        {
+          "id": "f_4_3",
+          "text": "Jeden hráč zavře vhazujícího. Bez toho se soupeř jen zbaví tlaku zpětnou přihrávkou a hraje si dál.",
+          "positions": {
+            "ST2": [
+              94,
+              66
+            ]
+          },
+          "ball": "oRM",
+          "focus": [
+            "ST2"
+          ],
+          "holdMs": 2400
+        },
+        {
+          "id": "f_4_4",
+          "text": "Vhození do nohou. Tlak přichází okamžitě zezadu — hráč je zády k bráně a nevidí, kdo na něj jde.",
+          "positions": {
+            "oCM2": [
+              86,
+              62
+            ],
+            "RM": [
+              88,
+              60
+            ]
+          },
+          "ball": "oCM2",
+          "ballSpeed": 0.6,
+          "focus": [
+            "RM"
+          ]
+        },
+        {
+          "id": "f_4_5",
+          "text": "Zisk míče v rohu hřiště. Aut soupeře se dá bránit tak, aby z něj byla naše šance — stačí přiřazení a tlak na první dotek.",
+          "positions": {
+            "RM": [
+              86,
+              58
+            ],
+            "CM2": [
+              74,
+              54
+            ],
+            "RB": [
+              80,
+              66
+            ]
+          },
+          "ball": "RM",
+          "flash": "ZISK MÍČE",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_nas-aut",
+      "name": "Náš aut",
+      "badge": "Situace 5",
+      "title": "Ofenzivní aut",
+      "keyPoints": [
+        "Rychlost je důležitější než krása. Vhazuje ten, kdo je nejblíž — pomalý aut ztrácí výhodu.",
+        "Prostor se vytváří pohybem ven a dovnitř: nabídnu se k vhazujícímu, vytáhnu obránce a uteču mu za záda.",
+        "Vždycky tři možnosti: krátká do nohou, úniková po lajně a vzdálený hráč pro změnu strany.",
+        "Vhazuje se pod nohu vzdálenější od bránícího hráče, aby první dotek směřoval dopředu.",
+        "Za autem musí zůstat dva hráči na jištění. Ztráta u lajny znamená protiútok do otevřené obrany."
+      ],
+      "frames": [
+        {
+          "id": "f_5_1",
+          "text": "Náš aut v útočné třetině. Soupeř nemá srovnané bránění — proto se vhazuje rychle, ne po dlouhém rozmýšlení.",
+          "positions": {
+            "RM": [
+              99,
+              26
+            ],
+            "ST1": [
+              88,
+              24
+            ],
+            "CM2": [
+              82,
+              32
+            ],
+            "RB": [
+              92,
+              38
+            ],
+            "ST2": [
+              54,
+              14
+            ],
+            "CM1": [
+              64,
+              40
+            ],
+            "RCB": [
+              70,
+              52
+            ],
+            "LCB": [
+              46,
+              54
+            ],
+            "LB": [
+              26,
+              50
+            ],
+            "LM": [
+              30,
+              26
+            ],
+            "GK": [
+              50,
+              80
+            ],
+            "oRB": [
+              86,
+              20
+            ],
+            "oCM2": [
+              80,
+              32
+            ],
+            "oRM": [
+              90,
+              36
+            ],
+            "oRCB": [
+              62,
+              14
+            ],
+            "oLCB": [
+              46,
+              14
+            ],
+            "oLB": [
+              26,
+              18
+            ],
+            "oCM1": [
+              64,
+              32
+            ],
+            "oAM": [
+              52,
+              34
+            ],
+            "oLM": [
+              30,
+              32
+            ],
+            "oST": [
+              50,
+              50
+            ],
+            "oGK": [
+              50,
+              4
+            ]
+          },
+          "ball": "RM",
+          "holdMs": 2800
+        },
+        {
+          "id": "f_5_2",
+          "text": "Útočník se nabídne k vhazujícímu a vytáhne za sebou obránce. Cílem není míč — cílem je prostor, který obránce opustí.",
+          "positions": {
+            "ST1": [
+              92,
+              21
+            ],
+            "oRB": [
+              89,
+              18
+            ]
+          },
+          "ball": "RM",
+          "focus": [
+            "ST1"
+          ],
+          "durMs": 1200
+        },
+        {
+          "id": "f_5_3",
+          "text": "Změna směru a únik za záda. Do uvolněného prostoru přichází záložník jako krátká varianta do nohou.",
+          "positions": {
+            "ST1": [
+              93,
+              13
+            ],
+            "CM2": [
+              86,
+              27
+            ],
+            "oRB": [
+              88,
+              16
+            ]
+          },
+          "ball": "RM",
+          "focus": [
+            "ST1",
+            "CM2"
+          ],
+          "zone": {
+            "x": 78,
+            "y": 8,
+            "w": 22,
+            "h": 22,
+            "label": "uvolněný prostor"
+          },
+          "durMs": 1200
+        },
+        {
+          "id": "f_5_4",
+          "text": "Vhození pod vzdálenější nohu, aby první dotek směřoval dopředu. Vzadu zůstávají dva hráči na jištění.",
+          "positions": {
+            "RCB": [
+              70,
+              46
+            ],
+            "CM1": [
+              66,
+              38
+            ]
+          },
+          "ball": "CM2",
+          "ballSpeed": 0.55,
+          "focus": [
+            "CM2"
+          ],
+          "zone": {
+            "x": 56,
+            "y": 34,
+            "w": 30,
+            "h": 20,
+            "label": "jištění"
+          }
+        },
+        {
+          "id": "f_5_5",
+          "text": "Třetí hráč: míč jde až teď do prostoru za obranu na nabíhajícího útočníka.",
+          "positions": {
+            "ST1": [
+              93,
+              10
+            ],
+            "ST2": [
+              54,
+              12
+            ],
+            "CM1": [
+              62,
+              26
+            ]
+          },
+          "ball": "ST1",
+          "ballSpeed": 0.6,
+          "focus": [
+            "ST1"
+          ]
+        },
+        {
+          "id": "f_5_6",
+          "text": "Centr do vápna na dvě vlny náběhu. Z obyčejného autu je šance — protože se hrálo rychle a s pohybem, ne jen do nohou nejbližšího hráče.",
+          "positions": {
+            "ST2": [
+              52,
+              10
+            ],
+            "CM1": [
+              58,
+              18
+            ]
+          },
+          "ball": [
+            52,
+            10
+          ],
+          "arc": 0.26,
+          "ballSpeed": 0.6,
+          "focus": [
+            "ST2",
+            "CM1"
+          ],
+          "flash": "ŠANCE",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_rozehra-z-autu",
+      "name": "Rozehra z autu",
+      "badge": "Situace 6",
+      "title": "Vlastní aut na naší polovině",
+      "keyPoints": [
+        "Nikdy nevhazovat doprostřed vlastní poloviny pod tlakem. Ztráta tam je přímá šance soupeře.",
+        "Nejdřív se otevře hřiště: hráči se rozestoupí, aby vznikly tři různě daleké možnosti.",
+        "Bezpečná varianta je zpět k volnému obránci nebo brankáři, který je vždy hráč navíc.",
+        "Hráč, který je těsně bráněný, uvolní prostor pro jiného. Statický aut se ubránit dá vždycky.",
+        "Když nic nefunguje: dlouhý aut dopředu k lajně, nikdy do středu."
+      ],
+      "frames": [
+        {
+          "id": "f_6_1",
+          "text": "Náš aut na obranné polovině pod tlakem. Rozhoduje se tady, jestli hru rozjedeme, nebo darujeme soupeři šanci.",
+          "positions": {
+            "LM": [
+              2,
+              68
+            ],
+            "LB": [
+              10,
+              76
+            ],
+            "LCB": [
+              36,
+              80
+            ],
+            "CM1": [
+              22,
+              62
+            ],
+            "ST1": [
+              30,
+              48
+            ],
+            "GK": [
+              50,
+              88
+            ],
+            "RB": [
+              78,
+              70
+            ],
+            "RCB": [
+              54,
+              80
+            ],
+            "CM2": [
+              48,
+              64
+            ],
+            "RM": [
+              76,
+              58
+            ],
+            "ST2": [
+              52,
+              44
+            ],
+            "oRM": [
+              12,
+              60
+            ],
+            "oCM1": [
+              26,
+              66
+            ],
+            "oCM2": [
+              40,
+              60
+            ],
+            "oRB": [
+              16,
+              80
+            ],
+            "oST": [
+              42,
+              74
+            ],
+            "oAM": [
+              34,
+              54
+            ],
+            "oLM": [
+              70,
+              60
+            ],
+            "oLB": [
+              72,
+              72
+            ],
+            "oLCB": [
+              46,
+              32
+            ],
+            "oRCB": [
+              58,
+              32
+            ],
+            "oGK": [
+              50,
+              8
+            ]
+          },
+          "ball": "LM",
+          "holdMs": 2800
+        },
+        {
+          "id": "f_6_2",
+          "text": "Tři možnosti, které musí existovat vždy: zpět k volnému obránci, dopředu po lajně za záda a dlouhý aut k útočníkovi.",
+          "positions": {},
+          "ball": "LM",
+          "zone": {
+            "x": 2,
+            "y": 70,
+            "w": 24,
+            "h": 16,
+            "label": "1 · zpět k volnému hráči"
+          },
+          "holdMs": 3000
+        },
+        {
+          "id": "f_6_3",
+          "text": "Těsně bráněný záložník uvolní prostor pohybem dovnitř. Obránce klesá níž a získává čas i výhled.",
+          "positions": {
+            "CM1": [
+              32,
+              58
+            ],
+            "LB": [
+              8,
+              80
+            ],
+            "oCM1": [
+              32,
+              62
+            ],
+            "oRB": [
+              14,
+              80
+            ]
+          },
+          "ball": "LM",
+          "focus": [
+            "LB",
+            "CM1"
+          ],
+          "durMs": 1300
+        },
+        {
+          "id": "f_6_4",
+          "text": "Vhození zpět na volného obránce. Tohle není alibismus — je to nejrychlejší způsob, jak dostat míč hráči, který vidí celé hřiště.",
+          "positions": {},
+          "ball": "LB",
+          "ballSpeed": 0.55,
+          "focus": [
+            "LB"
+          ]
+        },
+        {
+          "id": "f_6_5",
+          "text": "Přes stopery hned na druhou stranu. Soupeř se nahustil k autu a nestíhá se přesunout přes celou šířku.",
+          "positions": {
+            "LCB": [
+              36,
+              78
+            ],
+            "RCB": [
+              58,
+              76
+            ],
+            "RB": [
+              80,
+              66
+            ]
+          },
+          "ball": "RCB",
+          "ballSpeed": 0.5,
+          "durMs": 1600
+        },
+        {
+          "id": "f_6_6",
+          "text": "Na opačném kraji je volný obránce a před ním prostor. Aut byl jen odrazem — hra pokračuje tam, kde soupeř není.",
+          "positions": {
+            "RM": [
+              82,
+              52
+            ]
+          },
+          "ball": "RB",
+          "ballSpeed": 0.55,
+          "focus": [
+            "RB",
+            "RM"
+          ],
+          "flash": "HRA POKRAČUJE",
+          "holdMs": 2600
+        }
+      ]
+    },
+    {
+      "id": "s_presun-bloku",
+      "name": "Přesun bloku",
+      "badge": "Situace 7",
+      "title": "Změna strany a diagonální jištění",
+      "keyPoints": [
+        "Blok se posouvá jako jeden celek. Na míčové straně je šířka bloku zhruba 25–30 m, vzdálený kraj se vědomě obětuje.",
+        "Obranná linie není rovná: hráč nejdál od míče stojí hlouběji a jistí prostor za zády.",
+        "Změna strany trvá zhruba vteřinu a půl. Blok se musí posunout už během letu míče.",
+        "Kdo se posune až po dopadu míče, přijde pozdě do souboje i do zastoupení.",
+        "Po přesunu platí na druhé straně přesně stejná pravidla: jeden vystupuje, ostatní zastupují."
+      ],
+      "frames": [
+        {
+          "id": "f_7_1",
+          "text": "Míč je na naší levé straně. Blok je stlačený k míči, vzdálený krajní obránec je zúžený dovnitř a funguje jako třetí stoper.",
+          "positions": {
+            "GK": [
+              46,
+              90
+            ],
+            "LB": [
+              16,
+              72
+            ],
+            "LCB": [
+              32,
+              76
+            ],
+            "RCB": [
+              46,
+              76
+            ],
+            "RB": [
+              58,
+              72
+            ],
+            "LM": [
+              18,
+              58
+            ],
+            "CM1": [
+              32,
+              60
+            ],
+            "CM2": [
+              46,
+              58
+            ],
+            "RM": [
+              58,
+              54
+            ],
+            "ST1": [
+              34,
+              44
+            ],
+            "ST2": [
+              48,
+              42
+            ],
+            "oRM": [
+              16,
+              50
+            ],
+            "oCM1": [
+              34,
+              46
+            ],
+            "oCM2": [
+              48,
+              44
+            ],
+            "oLM": [
+              84,
+              46
+            ],
+            "oRB": [
+              26,
+              36
+            ],
+            "oLB": [
+              76,
+              36
+            ],
+            "oLCB": [
+              42,
+              26
+            ],
+            "oRCB": [
+              58,
+              26
+            ],
+            "oAM": [
+              50,
+              52
+            ],
+            "oST": [
+              42,
+              66
+            ],
+            "oGK": [
+              50,
+              8
+            ]
+          },
+          "ball": "oRM",
+          "zone": {
+            "x": 8,
+            "y": 40,
+            "w": 44,
+            "h": 38,
+            "label": "míčová strana · 25–30 m"
+          },
+          "holdMs": 2800
+        },
+        {
+          "id": "f_7_2",
+          "text": "Vzdálený kraj vědomě necháváme otevřený. Do toho prostoru vede nejdelší a nejpomalejší přihrávka na hřišti.",
+          "positions": {},
+          "ball": "oRM",
+          "zone": {
+            "x": 64,
+            "y": 36,
+            "w": 34,
+            "h": 26,
+            "label": "vědomě otevřený prostor"
+          },
+          "holdMs": 2600
+        },
+        {
+          "id": "f_7_3",
+          "text": "Změna strany. Blok se posouvá už během letu míče — ne až když míč dopadne. To je celý rozdíl mezi včas a pozdě.",
+          "positions": {
+            "LB": [
+              34,
+              70
+            ],
+            "LCB": [
+              48,
+              76
+            ],
+            "RCB": [
+              62,
+              76
+            ],
+            "RB": [
+              76,
+              70
+            ],
+            "LM": [
+              36,
+              56
+            ],
+            "CM1": [
+              50,
+              60
+            ],
+            "CM2": [
+              62,
+              58
+            ],
+            "RM": [
+              76,
+              52
+            ],
+            "ST1": [
+              48,
+              44
+            ],
+            "ST2": [
+              62,
+              42
+            ],
+            "GK": [
+              52,
+              90
+            ]
+          },
+          "ball": [
+            84,
+            46
+          ],
+          "arc": 0.2,
+          "ballSpeed": 0.9,
+          "durMs": 1800
+        },
+        {
+          "id": "f_7_4",
+          "text": "Na druhé straně platí přesně stejná pravidla: krajní obránec vystupuje, bližší stoper zastupuje prostor za ním.",
+          "positions": {
+            "RB": [
+              82,
+              58
+            ],
+            "RCB": [
+              70,
+              72
+            ],
+            "LCB": [
+              54,
+              74
+            ],
+            "LB": [
+              38,
+              72
+            ],
+            "CM2": [
+              70,
+              56
+            ]
+          },
+          "ball": "oLM",
+          "focus": [
+            "RB",
+            "RCB"
+          ],
+          "holdMs": 2800
+        },
+        {
+          "id": "f_7_5",
+          "text": "Soupeř nemá kam hrát a vrací míč zpátky. Blok, který se posouvá včas, nemusí bránit vůbec nic složitého.",
+          "positions": {},
+          "ball": [
+            58,
+            30
+          ],
+          "ballSpeed": 0.7,
+          "flash": "BLOK DRŽÍ",
+          "holdMs": 2600
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "version": 1
+}
