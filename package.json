@@ -1,0 +1,10 @@
+{
+  "name": "footbal-tactics",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --dir frontend dev",
+    "build": "pnpm --dir frontend build",
+    "lint": "pnpm --dir frontend lint",
+    "be:install": "composer install -d backend --no-dev -o"
+  }
+}

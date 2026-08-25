@@ -1,0 +1,23 @@
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- Backend ---
+/backend/vendor/
+/backend/storage/*
+!/backend/storage/.gitkeep
+/backend/tmp/
+
+# --- Frontend ---
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+*.tsbuildinfo
+
+# --- Ostatní ---
+*.log
+/.idea/
+/.vscode/
+.DS_Store
