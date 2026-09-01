@@ -4,12 +4,15 @@ import { useFolders, useTacticMutations } from '@/api/queries';
 import { createTactic } from '@/engine/factory';
 import { RequireEditor } from '@/features/auth/RequireEditor';
 import { TacticEditor } from '@/features/builder/TacticEditor';
+import { useDocumentTitle } from '@/lib/documentTitle';
 
 export function NewTacticScreen({ folderId }: { folderId?: string }) {
   const navigate = useNavigate();
   const foldersQuery = useFolders();
   const { create } = useTacticMutations();
   const draft = useMemo(() => createTactic({ folderId: folderId ?? null }), [folderId]);
+
+    useDocumentTitle('Nová taktika');
 
   return (
     <RequireEditor redirectTo="/new">

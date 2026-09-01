@@ -2,6 +2,7 @@ import { useNavigate } from '@tanstack/react-router';
 import { useState } from 'react';
 import { Alert, Button, Field, Input, Panel } from '@/components/ui';
 import { useAuth } from '@/features/auth/AuthProvider';
+import { useDocumentTitle } from '@/lib/documentTitle';
 
 export function LoginScreen({ redirect = '/library' }: { redirect?: string }) {
   const { login } = useAuth();
@@ -22,6 +23,8 @@ export function LoginScreen({ redirect = '/library' }: { redirect?: string }) {
       setPending(false);
     }
   };
+
+    useDocumentTitle('Přihlášení trenéra');
 
   return (
     <Panel className="mx-auto max-w-sm space-y-4">

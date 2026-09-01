@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { Alert, Panel } from '@/components/ui';
 import { decodeTacticFromPayload } from '@/features/share/codec';
 import { TacticPlayer } from '@/features/player/TacticPlayer';
+import { useDocumentTitle } from '@/lib/documentTitle';
 
 /** Taktika prisla zabalena primo v adrese (za mrizkou) - nic se nenacita ze serveru. */
 export function ShareScreen() {
@@ -16,6 +17,8 @@ export function ShareScreen() {
   }, []);
 
   if ('error' in result) return <Alert>{result.error}</Alert>;
+
+  useDocumentTitle('error' in result ? 'Sdílená taktika' : result.tactic.title, 'sdíleno');
 
   return (
     <div>

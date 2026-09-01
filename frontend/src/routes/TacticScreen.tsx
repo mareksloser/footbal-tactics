@@ -1,20 +1,31 @@
 import { Link } from '@tanstack/react-router';
 import { Alert, Button, Panel } from '@/components/ui';
-import { useSharedTactic, useTactic } from '@/api/queries';
+import { useFolders, useSharedTactic, useTactic } from '@/api/queries';
 import { useAuth } from '@/features/auth/AuthProvider';
 import { TacticPlayer } from '@/features/player/TacticPlayer';
 import { ViewWidthSelect } from '@/features/player/ViewWidthSelect';
 import { useViewWidth, VIEW_WIDTH_CLASSES } from '@/features/player/viewWidth';
+import { folderPath } from '@/features/library/tree';
+import { useDocumentTitle } from '@/lib/documentTitle';
 
 export function TacticScreen({ tacticId, shareToken }: { tacticId: string; shareToken?: string }) {
-  const { isEditor } = useAuth();
-  const [viewWidth, setViewWidth] = useViewWidth();
-  const direct = useTactic(tacticId, !shareToken);
-  const shared = useSharedTactic(shareToken ?? '');
-  const query = shareToken ? shared : direct;
+    const { isEditor } = useAuth();
+    const [viewWidth, setViewWidth] = useViewWidth();
+    const direct = useTactic(tacticId, !shareToken);
+    const shared = useSharedTactic(shareToken ?? '');
+    const query = shareToken ? shared : direct;
+    const foldersQuery = useFolders();
 
-  if (query.isPending) return <Panel className="text-sm text-muted">Načítám taktiku…</Panel>;
-  if (query.isError || !query.data) return <Alert>Taktiku se nepodařilo načíst.</Alert>;
+    const loaded = query.data;
+    const folderName = loaded
+        ? folderPath(foldersQuery.data ?? [], loaded.folderId).at(-1)?.name
+        : undefined;
+
+    useDocumentTitle(loaded?.title ?? 'Taktika', folderName, shareToken ? 'sdíleno' : undefined);
+
+
+    if (query.isPending) return <Panel className="text-sm text-muted">Načítám taktiku…</Panel>;
+    if (query.isError || !query.data) return <Alert>Taktiku se nepodařilo načíst.</Alert>;
 
   const tactic = query.data;
 

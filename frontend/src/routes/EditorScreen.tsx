@@ -3,12 +3,15 @@ import { Alert, Panel } from '@/components/ui';
 import { useFolders, useTactic, useTacticMutations } from '@/api/queries';
 import { RequireEditor } from '@/features/auth/RequireEditor';
 import { TacticEditor } from '@/features/builder/TacticEditor';
+import { useDocumentTitle } from '@/lib/documentTitle';
 
 export function EditorScreen({ tacticId }: { tacticId: string }) {
   const navigate = useNavigate();
   const tacticQuery = useTactic(tacticId);
   const foldersQuery = useFolders();
   const { update, remove } = useTacticMutations();
+
+  useDocumentTitle(tacticQuery.data?.title, 'úprava');
 
   return (
     <RequireEditor redirectTo={`/t/${tacticId}/edit`}>
